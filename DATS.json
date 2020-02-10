@@ -26,7 +26,6 @@
         {
             "formats": [
                 "txt",
-                "",
                 "gz",
                 "tsv"
             ],
