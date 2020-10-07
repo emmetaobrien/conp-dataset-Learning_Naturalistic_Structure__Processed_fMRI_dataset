@@ -1,9 +1,0 @@
-# Learning_Naturalistic_Structure__Processed_fMRI_dataset
-
-[![DOI](https://www.zenodo.org/badge/DOI/10.5281/zenodo.3647610.svg)](https://doi.org/10.5281/zenodo.3647610)
-
-Crawled from Zenodo
-
-## Description
-
-This data was obtained from OpenNeuro as ds001545. We would like to thank the authors for their generosity in sharing their data, and we point interested users towards their paper describing its acquisition:<br /><br />>  <br />> Aly M, Chen J, Turk-Browne NB, &amp; Hasson U (2018). Learning naturalistic temporal structure in the posterior medial network. Journal of Cognitive Neuroscience, 30(9): 1345-1365.<br />> <br /><br />  <br />__Experimental design__<br /><br />In this dataset, subjects were scanned while watching repeated presentations of intact and scrambled clips from Wes Anderson's 2014 film, _The Grand Budapest Hotel_. Scrambled clips were presented in either a 'fixed' (i.e., consistent scrambling from run to run) or 'random' (i.e., random scrambling from run to run) condition. An overview of the [experimental design is shown in this figure](https://www.mitpressjournals.org/na101/home/literatum/publisher/mit/journals/content/jocn/2018/jocn.2018.30.issue-9/jocn_a_01308/20180730/images/large/01308f01c.jpeg) from Aly and colleagues (2018)<br /><br />__Preprocessing__<br /><br />After downloading from OpenNeuro using [DataLad](https://www.datalad.org/), data was preprocessed using [fMRIPrep 1.5.0rc1](https://fmriprep.readthedocs.io). A complete transcript of the fMRIPrep processing is available as a README file in the repository. Post-processing was performed using [Nilearn](http://nilearn.github.io). Briefly, functional files were masked with the fMRIPrep-derived brain mask and trimmed to discard non-steady state volumes. Please see the README for further details.
