@@ -1,12 +1,7 @@
 {
     "zenodo": {
         "concept_doi": "3647610",
-        "version": "278"
+        "version": "4443278"
     },
-    "private_files": {
-        "archive_links": [],
-        "files": []
-    },
-    "restricted": false,
     "title": "Learning Naturalistic Structure: Processed fMRI dataset"
 }
